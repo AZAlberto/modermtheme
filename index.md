@@ -1,8 +1,3 @@
----
-layout: default
----
-
-
 # Black holes have Entropy!
 
 Black holes are the most fascinating objects in the Universe! Regions of spacetime where the gravitational force is so strong to not even let light can escape if it passes too close. Yet we do know so little about them. Often they are refered to as singularities meaning that a coordinate-independent quantity, the curvature, which measures the strenght of gravitational pull, becomes infinite and our physics fails to describe what's inside a black hole. Everything seems shielded by a horizon and it is sensible to require that there are no singularities without a horizon. 
