@@ -3,4 +3,4 @@ He, everyone! I'm Ulyana and I'm studying Theoretical Physics at the University 
 Here is the link to my curriculum
 > [Ulyana's CV](cv.pdf)
 
-
+This website is to share projects and ideas. It's only at the beginning but I'm planning to expnd it as soon as possible.
