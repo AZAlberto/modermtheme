@@ -10,8 +10,8 @@ The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Her
 
 > One afternoon in 1970 Bekenstein -then a graduate student- and I were discussing black hole physics in my office in Princeton's Jadwin Hall. I told him the concern I always feel when a hot cup of tea exchanges heat energy with a cold cup of tea. By allowing that transfer of heat I do not alter the energy of the universe, but I do increase its microscopic disorder, its information loss, its entropy. The entropy of the world always increases in an irreversible process like that.
 
-> **The consequence of my crime, Jacob, echo down to the end of time,** I noted. **But if a black hole swims by, and I drop the teacups into it, I conceal from all the world the evidence of my crime. How remarkable!**
+> *The consequence of my crime, Jacob, echo down to the end of time,* I noted. *But if a black hole swims by, and I drop the teacups into it, I conceal from all the world the evidence of my crime. How remarkable!*
 
->**You don't destroy entropy when you drop those teacups into the black hole. The black hole already has entropy, and you only increase it!**
+> *You don't destroy entropy when you drop those teacups into the black hole. The black hole already has entropy, and you only increase it!*
 
 
