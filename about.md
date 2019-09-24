@@ -6,7 +6,7 @@ Black holes are the most fascinating objects in the Universe! Regions of spaceti
 
 There is a theorem - the no-hair theorem - stating that all the accessible information about a black hole is its mass, its charge, if it has one, and its angular momentum if it's rotating. It was an extraordinary breakthrough to find out that black holes behave as thermodynamic objects: they possess a temperature, emit radiation and, on top, they have entropy.
 
-The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Here is an extract from an article by Thibault Damour, which you can find at the following link [Damour] (https://arxiv.org/pdf/hep-th/0401160.pdf) and which is a good introduction to the thermodyamic aspects of black holes. It is from John Wheeler's book **A journey into gravity and spacetime** and it is John Wheeler, who's speaking.
+The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Here is an extract from an article by Thibault Damour, which you can find at the following link [Damour](https://arxiv.org/pdf/hep-th/0401160.pdf) and which is a good introduction to the thermodyamic aspects of black holes. It is from John Wheeler's book **A journey into gravity and spacetime** and it is John Wheeler, who's speaking.
 
 > One afternoon in 1970 Bekenstein -then a graduate student- and I were discussing black hole physics in my office in Princeton's Jadwin Hall. I told him the concern I always feel when a hot cup of tea exchanges heat energy with a cold cup of tea. By allowing that transfer of heat I do not alter the energy of the universe, but I do increase its microscopic disorder, its information loss, its entropy. The entropy of the world always increases in an irreversible process like that.
 
