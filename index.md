@@ -17,6 +17,6 @@ The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Her
 - Harmonic oscillator [Github project](https://github.com/ulyanadupletsa/HarmonicOscillator)
 - Lattice phi4 theory [Github project](https://github.com/ulyanadupletsa/LatticePhi4Theory)
 
-Here you can view the report related to the two projects [report](main.pdf)
+[Here](main.pdf) you can view the report related to the two projects
 
 
