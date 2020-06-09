@@ -2,9 +2,20 @@
 
 This is my new project! Supermassive black holes are giant monsters residing at the centre of every galaxy. They present masses ranging form millions to hundreds of billions solar masses. How black holes can grow to such huge masses is still unanswered. Studying black holes merging history, alongside the structure formation across the cosmos, is fundamental to shed some light on the dynamics and evolution of these mysterious objects. This acquire a renewed importance in the light of the recent discovery of gravitational waves. Coalescences of supermassive black holes binaries, in fact, are sources of gravitational waves in the low frequency regime, detectable by the future space based interferometeres (millihertz band), as LISA, and by the current and future PTA experiments (nanohertz band).
 
-There are different simulations that explore the formation of structures, from the origins of the Universe to the present day. I am working on the data given by the Millennium Simulation. These data are processed to reconstruct the merging trees of thousands of black holes. Here is an example of a merging tree of a black hole
+There are different simulations that explore the formation of structures, from the origins of the Universe to the present day. I am working on the data given by the Millennium Simulation. These data are processed to reconstruct the merging trees of thousands of black holes. Then for each galactic merger in the tree, the delay time for the black hole binary coalescence is implemented. This delay time takes into account:
+* the dynamical friction drives the black holes at the centre of the merging galaxies down to the centre of the newly formed galaxy, until the two black holes enter the sphere of influence of each other and become a keplerian binary 
+* stellar or gaseous hardening subtract energy from the binary making it shrink progressively until the separation is small enough for gravitational wave emission to overtake and bring the binary to coalescence
 
-![useful image]({{https://ulyanadupletsa.github.io/}}/assets/first_graph.png)
+Here are some useful [notes](delay_notes.pdf) where to find further information on delay times.
+
+When following the merger history of a black hole and implementing delay times between galactic and binary merger, it is possible that, in some cases, the black hole binary isn't able to coalesce before the subsequent galactic merger. This results in the formation of multiple systems (mainly triplets), where the pre-existing binary. In the Notes section I've posted how I've implemented the triplet interaction for the Millennium data.
+
+Time delays affect the binary merger rates with respect to the galactic merger rates, shifting lower redshifts the moment when most mergers occur.
+
+Soon I'll post here the complete report.
+
+
+
 
 
 
