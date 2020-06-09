@@ -4,7 +4,7 @@ This is my new project! Supermassive black holes are giant monsters residing at 
 
 There are different simulations that explore the formation of structures, from the origins of the Universe to the present day. I am working on the data given by the Millennium Simulation. These data are processed to reconstruct the merging trees of thousands of black holes. Here is an example of a merging tree of a black hole
 
-![graph](first_graph.png)
+![graph](data:first_graph.png)
 
 
 
