@@ -1,3 +1,11 @@
+# Merging History of Black Holes
+
+This is my new project! 
+
+
+
+
+
 # Black Holes have Entropy!
 
 Black holes are the most fascinating objects in the Universe! Regions of spacetime where the gravitational force is so strong to not even let light can escape if it passes too close. Yet we do know so little about them. Often they are refered to as singularities meaning that a coordinate-independent quantity, the curvature, which measures the strenght of gravitational pull, becomes infinite and our physics fails to describe what's inside a black hole. Everything seems shielded by a horizon and it is sensible to require that there are no singularities without a horizon. 
@@ -11,6 +19,8 @@ The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Her
 > *The consequence of my crime, Jacob, would echo down to the end of time,* I noted. *But if a black hole swims by, and I drop the teacups into it, I conceal from all the world the evidence of my crime. How remarkable!*
 
 > *You don't destroy entropy when you drop those teacups into the black hole. The black hole already has entropy, and you only increase it!*
+
+I've studied black hole's entropy during my master degree, here is my report [report](master.pdf)
 
 ## Master's degree projects
 
