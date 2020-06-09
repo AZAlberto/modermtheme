@@ -1,4 +1,4 @@
-# Merging History of Black Holes
+# Black Holes Merging History
 
 This is my new project! Supermassive black holes are giant monsters residing at the centre of every galaxy. They present masses ranging form millions to hundreds of billions solar masses. How black holes can grow to such huge masses is still unanswered. Studying black holes merging history, alongside the structure formation across the cosmos, is fundamental to shed some light on the dynamics and evolution of these mysterious objects. This acquire a renewed importance in the light of the recent discovery of gravitational waves. Coalescences of supermassive black holes binaries, in fact, are sources of gravitational waves in the low frequency regime, detectable by the future space based interferometeres (millihertz band), as LISA, and by the current and future PTA experiments (nanohertz band).
 
