@@ -1,12 +1,15 @@
 # Merging History of Black Holes
 
-This is my new project! 
+This is my new project! Supermassive black holes are giant monsters residing at the centre of every galaxy. They present masses ranging form millions to hundreds of billions solar masses. How black holes can grow to such huge masses is still unanswered. Studying black holes merging history, alongside the structure formation across the cosmos, is fundamental to shed some light on the dynamics and evolution of these mysterious objects. This acquire a renewed importance in the light of the recent discovery of gravitational waves. Coalescences of supermassive black holes binaries, in fact, are sources of gravitational waves in the low frequency regime, detectable by the future space based interferometeres (millihertz band), as LISA, and by the current and future PTA experiments (nanohertz band).
+
+There are different simulations that explore the formation of structures, from the origins of the Universe to the present day. I am working on the data given by the Millennium Simulation. These data are processed to reconstruct the merging trees of thousands of black holes. Here is an example of a merging tree of a black hole
+
+![alt text](first_graph_ok.pdf)
 
 
 
 
-
-# Black Holes have Entropy!
+# Black Holes have Entropy
 
 Black holes are the most fascinating objects in the Universe! Regions of spacetime where the gravitational force is so strong to not even let light can escape if it passes too close. Yet we do know so little about them. Often they are refered to as singularities meaning that a coordinate-independent quantity, the curvature, which measures the strenght of gravitational pull, becomes infinite and our physics fails to describe what's inside a black hole. Everything seems shielded by a horizon and it is sensible to require that there are no singularities without a horizon. 
 
@@ -20,7 +23,7 @@ The discovery of the concept of black hole entropy goes to Jacob Bekenstein. Her
 
 > *You don't destroy entropy when you drop those teacups into the black hole. The black hole already has entropy, and you only increase it!*
 
-I've studied black hole's entropy during my master degree, here is my report [report](master.pdf)
+I've studied black hole's entropy during my master degree, here is my [report](master.pdf)
 
 ## Master's degree projects
 

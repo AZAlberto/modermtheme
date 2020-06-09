@@ -1,6 +1,6 @@
-Hi, everyone! I'm Ulyana and I'm studying Theoretical Physics at the University of Milan-Bicocca. I already earned my Bachelor's and now I'm completing my master's project on one of the most mysterious topics: entropy of black holes!
+Hi, everyone! I'm Ulyana Dupletsa and I am a graduate student in Theoretical Physics at the University of Milan-Bicocca. After my master's degree I've decided to dedicate my studies to Astrophysics. Now I'm working on a new fascinating project on the evolution of supermassive black holes! You can see more about it on my homepage!
 
 Here is the link to my curriculum
-> [Ulyana's CV](cv.pdf)
+> [My CV](cv.pdf)
 
-This website is to share projects and ideas. It's only at the beginning but I'm planning to expand it as soon as possible.
+This website is to share projects and ideas, maybe they will be of some help to someone. Sure this is funny and rewarding! 
