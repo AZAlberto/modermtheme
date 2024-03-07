@@ -2,7 +2,7 @@
 layout: default
 ---
 # MindWellChat
-# Info
+## Project Info
 **Title**: MindWellChat: Utilizing the RAG-based LLM for mental-health support
 
 **Mentor**: Dr. Vivien P.S. Chan 
