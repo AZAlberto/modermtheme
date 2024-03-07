@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# MindWellChat
 # Info
 **Title**: MindWellChat: Utilizing the RAG-based LLM for mental-health support
 

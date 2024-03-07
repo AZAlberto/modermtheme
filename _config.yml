@@ -3,3 +3,5 @@ description: An online chatbot that provide mental health support to users using
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+github:
+  is_project_page: false
