@@ -15,16 +15,14 @@ layout: default
 <!-- [Project Github](./another-page.html). -->
 
 # Project Description
-The objective of this project is to develop a web platform hosting a chatbot that offers users comprehensive mental health support. As a LLM model, we create a relaxed and open conversational environment for users to share experiences and feelings. By integrating psychological counseling, assessment and diagnosis, we aim to establish a close relationship of trust and understanding with users. Leveraging technological advantages, we can understand users' profiles, personal experiences, emotional states, and behavioral patterns, offering a private, warm, secure, timely, and convenient conversational space. As a mental health support chatbot, our platform provides emotional support and psychological guidance through conversations with users from the perspective of a professional counselor.
+The objective of this project is to develop a web platform hosting a chatbot that offers users comprehensive mental health support. We create a relaxed and open conversational environment for users to share experiences and feelings. By integrating psychological counseling, assessment and diagnosis, we aim to establish a close relationship of trust and understanding with users. Leveraging technological advantages, we can understand users' personality, personal experiences, and emotional states, offering a private, warm, secure, timely, and empathetic conversational space. As a mental health support chatbot, our platform provides emotional support and psychological guidance through conversations with users from the perspective of a professional counselor.
 
 
 # Project structure
 ![Octocat](./method.png)
 
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Update
 
