@@ -1,5 +1,5 @@
-title: NLP tookit platform
-description: This is a group project
+title: "MindWellChat"
+description: An online chatbot that provide mental health support to users using the RAG-based LLM
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
