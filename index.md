@@ -19,7 +19,7 @@ The objective of this project is to develop a web platform hosting a chatbot tha
 
 
 ## Project structure
-![Octocat](./method.png)
+![Octocat](./PROJECT.png)
 
 
 
