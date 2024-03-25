@@ -35,6 +35,7 @@ Leveraging Langchain, ChromaDB, OpenAI embeddings, and the Sentence Transformer 
 
 ## Dataset
 > The detailed description of each dataset and some EDA can be find in the following [page](./update1_dataset).
+
 ### Mental Health Knowledge Database
 
 The Mental Health Knowledge Database is an aggregation of textbooks, articles, and research papers focused on mental health support. Acquired from diverse sources, including academic databases, online libraries, and scholarly publications, this dataset encompasses a broad spectrum of topics within mental health support, such as mental health nursing, clinical psychology, and mental health education. This database serves as the foundation for constructing the vector store, a critical component facilitating information retrieval in our project.
