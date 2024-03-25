@@ -29,5 +29,5 @@ The objective of this project is to develop a web platform hosting a chatbot tha
 1.  2023-Feb-05: The project is initiated. The team has been formed and the project plan has been drafted. The team has started to work on the project.
 1. 2023-Mar-05: First meeting with the mentor. The team has discussed the project plan and the mentor has given some suggestions. The team finalized the project plan as building a web platform hosting a chatbot that offers users comprehensive mental health support. 
 1. 2023-Mar-13: The team has finished the detailed proposal and submit to Moodle.
+1. **2023-Apr-10**: The team has accomplished all the designed tasks include in the **<span style="color:red; font-weight:bold; font-size:larger;">Project Update Process 1</span>**. The report can be find in the following [page](./update1).
 
-[Link to another page](./update1).
