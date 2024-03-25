@@ -30,4 +30,4 @@ The objective of this project is to develop a web platform hosting a chatbot tha
 1. 2023-Mar-05: First meeting with the mentor. The team has discussed the project plan and the mentor has given some suggestions. The team finalized the project plan as building a web platform hosting a chatbot that offers users comprehensive mental health support. 
 1. 2023-Mar-13: The team has finished the detailed proposal and submit to Moodle.
 
-[Link to another page](./another-page).
+[Link to another page](./update1).
