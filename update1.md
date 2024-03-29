@@ -53,7 +53,9 @@ The Emotion Detection Dataset comprises user-generated text data annotated with 
 ## Vector Store Construction
 >Test cases for the vector store are elaborated in the following [page](./update1_testcases).
 
-In this project, the vector store is constructed leveraging the Mental Health Knowledge Database as its foundational dataset. Initially, we employed the embedding model provided by the Sentence Transformer framework. However, the embeddings produced by this model did not meet our performance expectations for retrieving the most contextually relevant information compared to user queries from the vector store.
+![Octocat](./Update1.png)
+
+In this project, the vector store is constructed leveraging the Mental Health Knowledge Database as its foundational dataset. Initially, we employed the embedding model provided by the Sentence Transformer framework. However, the embeddings produced by the small size model did not meet our performance expectations for retrieving the most contextually relevant information compared to user queries from the vector store and large model increase the burden of computation resources and disk usage.
 
 To enhance the vector store's performance, two potential strategies were considered:
 
@@ -64,7 +66,15 @@ We opted for the second approach due to several reasons. Firstly, fine-tuning th
 
 Conversely, OpenAI's embedding models are pre-trained on extensive text corpora, making them adept at capturing nuanced semantic meanings of sentences. These models support multiple languages, enabling us to utilize a single model for both our English and Chinese datasets, thereby eliminating the need to build separate embedding models. Additionally, the cost-effectiveness of this approach is noteworthy; the 'text-embedding-3-small' model incurs a minimal cost of 0.02 USD per million tokens while achieving a performance of 62.3% on the MTEB evaluation (Muennighoff et al., 2022).
 
-### Test Cases
+In our study, to facilitate multilingual support encompassing both English and Chinese, we employed Chroma to establish distinct collections tailored for each linguistic domain. Leveraging the OpenAI embedding model, we constructed a vector store for each collection, utilizing cosine similarity as the evaluative metric. Subsequently, this vectorized representation facilitates the retrieval of contextually pertinent information from the Mental Health Knowledge Database in response to user inquiries. Within the retrieval mechanism, users possess the autonomy to specify parameters such as the desired number of returned results, query language preference, and the targeted database subsets for interrogation. The vector store, predicated on the user query, adeptly furnishes the most salient information.
 
-### Reference(APA style)
-Muennighoff, N., Tazi, N., Magne, L., & Reimers, N. (2022). MTEB: Massive Text Embedding Benchmark. arXiv preprint arXiv:2210.07316.
+
+Employing an embedding vector database provides a streamlined and effective methodology for retrieving information from the Mental Health Knowledge Database. The resulting vectors manifest a significant degree of semantic alignment with the user's query. However, it is imperative to recognize that semantic congruency does not always translate to optimal relevance in the retrieved content. Additionally, the act of projecting the corpus into finite dimensions can introduce information loss, which can further impact the quality of retrievals. To address these inherent challenges, we have integrated a reranking mechanism within the post-processing stage. As highlighted by Yunfan et al. (2023), a reranker operates in a dual capacity, serving to both optimize and refine the outcomes of information retrieval. We have leveraged the 'BAAI/bge-reranker-base' model (Shitao et al., 2023), an open-source offering from Hugging Face, for this task. This reranking model is meticulously trained to assign a scoring metric to each query-information pair, enabling a more refined prioritization of information based on the computed scores. To augment the accuracy of the retrieved data, we have instituted a threshold scoring criterion, presently established at 0.5. It is worth noting that the optimal value for this threshold might require adjustments based on the overall performance and efficacy of the application.
+
+
+#### Reference(APA style)
+Muennighoff, N., Tazi, N., Magne, L., & Reimers, N. (2022). MTEB: Massive Text Embedding Benchmark. ArXiv, abs/2210.07316.
+
+Shitao Xiao, Zheng Liu, Peitian Zhang, & Niklas Muennighoff. (2023). C-Pack: Packaged Resources To Advance General Chinese Embedding. ArXiv, abs/2309.07597.
+
+Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Guo, Q., Wang, M., & Wang, H. (2023). Retrieval-Augmented Generation for Large Language Models: A Survey. ArXiv, abs/2312.10997.
