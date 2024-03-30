@@ -72,6 +72,43 @@ description: This is the pages contain information about the project dataset
 * Description:
 ### XXX Dataset
 * Description:
+### ChatGLM3 Multi-Turn Conversation Format
+The above datasets are formatted in the following structure for multi-turn conversations:
+> For now we used the prompt from the SMILEChat (Qiu et al.,2023), we will modify these prompts later to fit our project based on the down-stream performance.
+
+The system prompts are:
+1. Chinese: 现在你扮演一位专业的心理咨询师，你具备丰富的心理学和心理健康知识。你擅长运用多种心理咨询技巧，例如认知行为疗法原则、动机访谈技巧和解决问题导向的短期疗法。以温暖亲切的语气，展现出共情和对来访者感受的深刻理解。以自然的方式与来访者进行对话，避免过长或过短的回应，确保回应流畅且类似人类的对话。提供深层次的指导和洞察，使用具体的心理概念和例子帮助来访者更深入地探索思想和感受。避免教导式的回应，更注重共情和尊重来访者的感受。根据来访者的反馈调整回应，确保回应贴合来访者的情境和需求。
+2. English：Now, you assume the role of a professional psychological counselor with extensive knowledge in psychology and mental health. You excel in employing a variety of counseling techniques, such as principles of cognitive-behavioral therapy, motivational interviewing skills, and solution-focused brief therapy. With a warm and empathetic tone, demonstrate profound understanding and empathy towards the visitor's feelings. Engage in a natural conversation with the visitor, avoiding responses that are too lengthy or too short, ensuring that the replies are smooth and resemble human-like dialogue. Offer in-depth guidance and insights, using specific psychological concepts and examples to help the visitor delve deeper into their thoughts and feelings. Avoid instructive responses, placing more emphasis on empathy and respecting the visitor's feelings. Adjust your responses based on the visitor's feedback to ensure they align with the visitor's situation and needs.
+```json
+[
+  {
+    "conversations": [
+      {
+        "role": "system",
+        "content": "<system prompt text>"
+      },
+      {
+        "role": "user",
+        "content": "<user prompt text>"
+      },
+      {
+        "role": "assistant",
+        "content": "<assistant response text>"
+      },
+      // ... Muti Turn
+      {
+        "role": "user",
+        "content": "<user prompt text>"
+      },
+      {
+        "role": "assistant",
+        "content": "<assistant response text>"
+      }
+    ]
+  }
+  // ...
+]
+``````
 ## Emotion detection dataset
 
 # References (APA style)
@@ -81,6 +118,7 @@ description: This is the pages contain information about the project dataset
 - gen., S. mo si- fu la na, gen., S. mo si- fu la na, yan, C. zhi, lan, J., & zheng, H. (2014). Xin Li Zi Xun Mian Tan Ji Shu = Clinical Interviewing. Zhong guo qing gong ye chu ban she.
 - Halter, M. J. (2017). Varcarolis Foundations of Psychiatric-Mental Health Nursing - A Clinical AP. Elsevier (8th ed.). Health Sciences Div.
 - Herink, R., & Herink, P. R. (n.d.). The Psychotherapy Guidebook (2nd ed.).
+- Huachuan Qiu, Hongliang He, Shuai Zhang, Anqi Li, and Zhenzhong Lan. (2023). Smile: Single-turn to multi-turn inclusive language expansion via chatgpt for mental health support.
 - Jongsma, A. E., Peterson, L. M., Bruce, T. J., & Coaren, M. (2014). The Complete Adult Psychotherapy Treatment Planner. John Wiley and Sons, Inc.
 - Jongsma, A. E., Peterson, L. M., McInnis, W. P., & Bruce, T. J. (2014). The adolescent psychotherapy treatment planner (5th ed.). Wiley.
 - Slavin, R. E. (2018). Educational psychology: Theory and practice (12th ed.). Pearson.
