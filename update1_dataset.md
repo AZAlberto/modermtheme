@@ -68,11 +68,12 @@ description: This is the pages contain information about the project dataset
 
 
 ## Mental health Q&A conversation dataset
-### XXX Dataset
+### SMILE Dataset
 * Description:
-### XXX Dataset
+### ESConv Dataset
 * Description:
-
+### AugESC Dataset
+* Description:
 
 ### ChatGLM3 Multi-Turn Conversation Format
 The above datasets are formatted in the following structure for multi-turn conversations:
@@ -110,8 +111,15 @@ The system prompts are:
   }
   // ...
 ]
-``````
+```
+
 ## Emotion detection dataset
+### Weibo Dataset
+* Description:
+* EDA:
+### DailyDialog Dataset
+* Description:
+* EDA:
 
 # References (APA style)
 - Corey, & Shi, L. (2004). Xin Li Zi Xun Yu Zhi Liao Jing Dian an li = Case Approach to Counseling and Psychotherapy (6th Edition). Zhong guo qing gong ye chu ban she.
