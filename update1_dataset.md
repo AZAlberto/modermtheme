@@ -70,13 +70,16 @@ description: This is the pages contain information about the project dataset
 ## Mental health Q&A conversation dataset
 
 ### SMILE Dataset
-* Description:
+* Format: Dataset
+* Description: SmileChat is a dataset comprising 55,165k multi-turn conversations adapted from real psychological peer support Q&A sessions. These conversations are enriched with diverse topics, vocabulary, and discourse, catering to the exigencies of long-form multi-turn dialogue. By transforming genuine psychological peer support Q&A into multi-turn interactions, SmileChat enhances the performance of large-scale language models in the domain of psychological support, aligning more closely with protracted multi-turn dialogue applications.
 
 ### ESConv Dataset
-* Description:
+* Format: Dataset
+* Description: Developed by the CoAI Group at Tsinghua University, this dataset supports research on emotional support dialog systems. The dataset, featured in the ACL 2021 paper "Towards Emotional Support Dialog Systems," comprises 1,300 dialogues across diverse problem topics such as depression, relationship breakups, and job crises. It is structured to aid in developing AI models that provide empathetic responses and emotional support, including strategies like self-disclosure and affirmation.
 
 ### AugESC Dataset
-* Description:
+* Format: Dataset
+* Description: The Augmented Emotional Support Conversation (AugESC) dataset is a machine-augmented corpus designed to expand the scale and topic coverage of emotional support dialog systems. Utilizing the 6B-parameter GPT-J model and publicly available dialog posts, AugESC contains 65.1k conversations, which is two orders of magnitude larger than the original ESConv dataset. It covers a more diverse range of topics and has been validated to be of high quality through human evaluation.
 
 ### ChatGLM3 Multi-Turn Conversation Format
 The above datasets are formatted in the following structure for multi-turn conversations:
@@ -118,8 +121,13 @@ The system prompts are:
 
 ## Emotion detection dataset
 ### Weibo Dataset
-* Description:
-* EDA:
+* Format: Dataset
+* Description: The task requires determining whether a given weibo contains emotions. For weibo that exhibit emotions, the objective is to classify the emotion into one of the following categories: anger, disgust, fear, happiness, like, sadness, or surprise, providing a single-class output. It is important to note that a microblog may contain multiple individuals with different emotions, and the emotion classification should be based on the primary emotion of the microblog's author. The evaluation dataset consists of approximately 40,000 weibo from Sina Weibo, provided in pre-segmented sentences in XML format. The data is encoded in Unicode (UTF-16).
+#### EDA
+![Octocat](./weibo_eda/emotion_types_bar_chart.png)
+![Octocat](./weibo_eda/average_sentence_length_by_emotion_type.png)
+![Octocat](./weibo_eda/distribution_of_emotion_tags.png)
+![Octocat](./weibo_eda/distribution_of_sentence_length.png)
 ### DailyDialog Dataset
 * Description:
 * EDA:
@@ -134,9 +142,11 @@ The system prompts are:
 - Huachuan Qiu, Hongliang He, Shuai Zhang, Anqi Li, and Zhenzhong Lan. (2023). Smile: Single-turn to multi-turn inclusive language expansion via chatgpt for mental health support.
 - Jongsma, A. E., Peterson, L. M., Bruce, T. J., & Coaren, M. (2014). The Complete Adult Psychotherapy Treatment Planner. John Wiley and Sons, Inc.
 - Jongsma, A. E., Peterson, L. M., McInnis, W. P., & Bruce, T. J. (2014). The adolescent psychotherapy treatment planner (5th ed.). Wiley.
+- Liu, S., Zheng, C., Demasi, O., Sabour, S., Li, Y., Yu, Z., Jiang, Y., & Huang, M. (2021). Towards Emotional Support Dialog Systems. In ACL.
 - Slavin, R. E. (2018). Educational psychology: Theory and practice (12th ed.). Pearson.
 - Smith, J. (2017). Psychotherapy: A practical guide (1st ed.). Springer.
 - Townsend, M. C., & Morgan, K. I. (2020). Essentials of Psychiatric Mental Health Nursing: Concepts of care in evidence-based practice (5th ed.). F.A. Davis Company.
 - Videbeck, S. L., & Miller, C. J. (2020). Psychiatric-Mental Health Nursing (8th ed.). Wolters Kluwer.
 - Xu,Guangxing. (2017). Xin Li Zi Xun Yu Zhi Liao: Lin Chuang Xin Li Xue De Li Lun Yu Ji Shu. Shang hai jiao yu chu ban she.
-
+- Xu , R., & Li, S. (n.d.). Chinese Weibo Emotion Recognition Dataset. 2018 TCCI Data Share. https://www.biendata.xyz/ccf_tcci2018/datasets/tcci_tag/18 
+- Zheng, C., Sabour, S., Wen, J., Zhang, Z., & Huang, M. (2023). AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation. In Findings of ACL.
