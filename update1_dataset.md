@@ -129,7 +129,7 @@ The system prompts are:
 ![Octocat](./weibo_eda/distribution_of_emotion_tags.png)
 ![Octocat](./weibo_eda/distribution_of_sentence_length.png)
 ### DailyDialog Dataset
-* Description:
+* Description: DailyDialog dataset is a high-quality, multi-turn and manually labeled dataset.This dataset contains dialog text in the form of sentences and emotion labels for each sentence.  This dataset covers different topics from daily life, conforms basic dialog act flows, follows unique multiturn dialog flow patterns and is rich of emotions which we believe will correspond to the project needs.
 * EDA:
 ![Octocat](./DailyDialog_eda/length_on_emotion_train.png)
 ![Octocat](./DailyDialog_eda/emotiondis_train.png)
