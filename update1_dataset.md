@@ -71,7 +71,7 @@ description: This is the pages contain information about the project dataset
 
 ### SMILE Dataset
 * Format: Dataset
-* Description: SmileChat is a dataset comprising 55,165k multi-turn conversations adapted from real psychological peer support Q&A sessions. These conversations are enriched with diverse topics, vocabulary, and discourse, catering to the exigencies of long-form multi-turn dialogue. By transforming genuine psychological peer support Q&A into multi-turn interactions, SmileChat enhances the performance of large-scale language models in the domain of psychological support, aligning more closely with protracted multi-turn dialogue applications.
+* Description: SmileChat is a dataset comprising about 55k Chinese multi-turn conversations adapted from real psychological peer support Q&A sessions. These conversations are enriched with diverse topics, vocabulary, and discourse, catering to the exigencies of long-form multi-turn dialogue. By transforming genuine psychological peer support Q&A into multi-turn interactions, SmileChat enhances the performance of large-scale language models in the domain of psychological support, aligning more closely with protracted multi-turn dialogue applications.
 
 ### ESConv Dataset
 * Format: Dataset
@@ -131,6 +131,10 @@ The system prompts are:
 ### DailyDialog Dataset
 * Description:
 * EDA:
+![Octocat](./dailydialog_eda/length_on_emotion_train.png)
+![Octocat](./dailydialog_eda/emotiondis_train.png)
+![Octocat](./dailydialog_eda/train_length.png)
+![Octocat](./dailydialog_eda/wordcount_on_emotion_train.png)
 
 # References (APA style)
 - Corey, & Shi, L. (2004). Xin Li Zi Xun Yu Zhi Liao Jing Dian an li = Case Approach to Counseling and Psychotherapy (6th Edition). Zhong guo qing gong ye chu ban she.
@@ -142,6 +146,7 @@ The system prompts are:
 - Huachuan Qiu, Hongliang He, Shuai Zhang, Anqi Li, and Zhenzhong Lan. (2023). Smile: Single-turn to multi-turn inclusive language expansion via chatgpt for mental health support.
 - Jongsma, A. E., Peterson, L. M., Bruce, T. J., & Coaren, M. (2014). The Complete Adult Psychotherapy Treatment Planner. John Wiley and Sons, Inc.
 - Jongsma, A. E., Peterson, L. M., McInnis, W. P., & Bruce, T. J. (2014). The adolescent psychotherapy treatment planner (5th ed.). Wiley.
+- Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017, November). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. In G. Kondrak & T. Watanabe (Eds.), Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers) (pp. 986–995). Retrieved from https://aclanthology.org/I17-1099
 - Liu, S., Zheng, C., Demasi, O., Sabour, S., Li, Y., Yu, Z., Jiang, Y., & Huang, M. (2021). Towards Emotional Support Dialog Systems. In ACL.
 - Slavin, R. E. (2018). Educational psychology: Theory and practice (12th ed.). Pearson.
 - Smith, J. (2017). Psychotherapy: A practical guide (1st ed.). Springer.
