@@ -131,10 +131,10 @@ The system prompts are:
 ### DailyDialog Dataset
 * Description:
 * EDA:
-![Octocat](./dailydialog_eda/length_on_emotion_train.png)
-![Octocat](./dailydialog_eda/emotiondis_train.png)
-![Octocat](./dailydialog_eda/train_length.png)
-![Octocat](./dailydialog_eda/wordcount_on_emotion_train.png)
+![Octocat](./DailyDialog_eda/length_on_emotion_train.png)
+![Octocat](./DailyDialog_eda/emotiondis_train.png)
+![Octocat](./DailyDialog_eda/train_length.png)
+![Octocat](./DailyDialog_eda/wordcount_on_emotion_train.png)
 
 # References (APA style)
 - Corey, & Shi, L. (2004). Xin Li Zi Xun Yu Zhi Liao Jing Dian an li = Case Approach to Counseling and Psychotherapy (6th Edition). Zhong guo qing gong ye chu ban she.
