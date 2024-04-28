@@ -46,7 +46,7 @@ Hyperparameter Tuning & what is optuna
  - **4. lr_scheduler_type**
 
 For the evaluation metric, we have chosen accuracy and f1.
-With the above training and evaluation procedures, we finally chose our best model Erlangshen-DeBERTa-v2-320M-Chinese for Chinese and ernie-2.0-large-en for English.
+With the above training and evaluation procedures, we finally chose our best model Erlangshen-DeBERTa-v2-320M-Chinese for Chinese and ernie-2.0-large-en for English. The information about the training and evaluation can be found in [here](./update2_train_eval)
 
 ### 4. Inference & Demo
 To demonstrate the model and make it easy for later usage, we have transferred the pipeline into Huggingface API which will be convenient to use.
