@@ -24,9 +24,15 @@ The ERNIE 2.0 model encompasses three different language processing tasks: word-
 
 ![](./update2_images/update2_model_selection.png)
 
-Word-Aware Pre-Training Task: Predicting whether a word in one segment also appears in other segments of the same document.
+Word-Aware Pre-Training Task: Predicting whether a word in one segment also appears in other segments of the same document. Usually, words that frequently appear in multiple parts of a document are either common words or closely related to the document's main topic.
+
+Structure-Aware Pre-Training Task: This task aims to learn the relationships between sentences. It can also determine the distance between two sentences. Are these sentences adjacent, or not adjacent but in the same document, or are they from different documents.
+
+Semantic-Aware Pre-Training Task: This task aims to predict semantic or rhetorical relationship between two sentences.
 
 ### Reference(APA style)
 Jiaxing Zhang, Ruyi Gan, Junjie Wang, Yuxiang Zhang, Lin Zhang, Ping Yang, Xinyu Gao, Ziwei Wu, Xiaoqun Dong, Junqing He, Jianheng Zhuo, Qi Yang, Yongfeng Huang, Xiayu Li, Yanghan Wu, Junyu Lu, Xinyu Zhu, Weifeng Chen, Ting Han, Kunhao Pan, Rui Wang, Hao Wang, Xiaojun Wu, Zhongshen Zeng, & Chongpei Chen (2022). Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence*. CoRR, abs/2209.02970.*
 
 He, P., Liu, X., Gao, J., & Chen, W. (2020). DeBERTa: Decoding-enhanced BERT with Disentangled Attention*. CoRR, abs/2006.03654.*
+
+Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Hao Tian, Hua Wu, & Haifeng Wang. (2019). ERNIE 2.0: A Continual Pre-training Framework for Language Understanding.*
