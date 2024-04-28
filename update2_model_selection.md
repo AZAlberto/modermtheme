@@ -2,7 +2,7 @@ In the analysis of Chinese sentiment data sourced from Weibo, the Erlangshen-DeB
 
 DeBERTa, short for “Decoding-enhanced BERT with Disentangled Attention,” was originally proposed by He et al. in 2020 and tailored for Natural Language Understanding (NLU) tasks. The model’s key innovations encompass disentangled attention mechanism and Enhanced mask decoder. The former involves calculating attention scores using both content and position vectors, facilitating the consideration of content-content, content-position, and position-position relationships. The disentangled attention mechanism can be represented mathematically as:
 
-A_{i,j} = \{\bold{H}_i,\bold{P}_{i|j}\} \times \{\bold{H}_j,\bold{P}_{j|i}\}^T \\ =\bold{H}_i\bold{H}_j^T + \bold{H}_i\bold{P}_{j|i}^T + \bold{P}_{j|j}\bold{H}_j^T + \bold{P}_{i|j}\bold{P}_{j|i}^T
+!(./update2_model_pic)
 
 Here, $\bold{H}_i$ represents content for a token at position i while $\bold{P}_{i|j}$ denotes relative position with respect to the token at position j. Indeed, an observed phenomenon is that the attentional weight assigned to word pairs is contingent not only upon their semantic content but also on their relative positions within the context. For instance, when words like "deep" and "learning" occur adjacently, their interdependence is notably stronger compared to when they appear in separate sentences.
 
