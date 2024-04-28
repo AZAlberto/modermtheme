@@ -16,7 +16,7 @@ We utilized the nltk library to identify and remove stopwords from the English t
 
 Common words change in English:
 
-![](./update2_images/update2_data_process5)|![](./update2_images/update2_data_process6)
+![](./update2_images/update2_data_process5.png)|![](./update2_images/update2_data_process6.png)
 
 **3.Remove Duplicate Rows**
 
@@ -28,8 +28,8 @@ Although the code specifics were not provided up to step 3, typically, this step
 
 Images below show the text length changes:
 
-![](./update2_images/update2_data_process1)|![](./update2_images/update2_data_process2)
-![](./update2_images/upadte2_data_process3)|![](./update2_images/update2_data_process4)
+![](./update2_images/update2_data_process1.png)|![](./update2_images/update2_data_process2.png)
+![](./update2_images/upadte2_data_process3.png)|![](./update2_images/update2_data_process4.png)
 
 **5.Remove Too Short Sentences in Both Datasets**
 
