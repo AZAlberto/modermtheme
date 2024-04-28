@@ -29,7 +29,7 @@ Although the code specifics were not provided up to step 3, typically, this step
 Images below show the text length changes:
 
 ![](./update2_images/update2_data_process1.png)|![](./update2_images/update2_data_process2.png)
-![](./update2_images/upadte2_data_process3.png)|![](./update2_images/update2_data_process4.png)
+![](./update2_images/update2_data_process3.png)|![](./update2_images/update2_data_process4.png)
 
 **5.Remove Too Short Sentences in Both Datasets**
 
