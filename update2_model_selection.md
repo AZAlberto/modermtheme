@@ -18,6 +18,12 @@ DeBERTa-v2 introduces several enhancements compared to its predecessor, includin
 
 ## Emotion Detection Model（English）
 
+In the execution of sentiment detection tasks in English, we will employ Baidu's ERNIE 2.0 pre-trained model. This model is based on the advanced architecture of 'A Continual Pre-Training Framework for Language Understanding,' which allows for the gradual incorporation of various customized tasks. Through this approach, ERNIE 2.0 can continuously engage in multi-task learning, systematically constructing and training a vast array of pre-training tasks. This enables the model to deeply mine all valuable information in the training corpus, whether it be lexical, syntactic, or semantic representations. With such comprehensive learning, ERNIE 2.0 can more accurately identify and process emotional tendencies in texts, thereby enhancing the effectiveness and accuracy of sentiment detection tasks.
+
+The ERNIE 2.0 model encompasses three different language processing tasks: word-aware pre-training task, structure-aware pre-training task, and semantic-aware pre-training task. The specific model architecture is illustrated as follows:
+
+![](./update2/update2_model_selection.png)
+
 ### Reference(APA style)
 Jiaxing Zhang, Ruyi Gan, Junjie Wang, Yuxiang Zhang, Lin Zhang, Ping Yang, Xinyu Gao, Ziwei Wu, Xiaoqun Dong, Junqing He, Jianheng Zhuo, Qi Yang, Yongfeng Huang, Xiayu Li, Yanghan Wu, Junyu Lu, Xinyu Zhu, Weifeng Chen, Ting Han, Kunhao Pan, Rui Wang, Hao Wang, Xiaojun Wu, Zhongshen Zeng, & Chongpei Chen (2022). Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence*. CoRR, abs/2209.02970.*
 
