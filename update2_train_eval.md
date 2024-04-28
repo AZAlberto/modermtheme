@@ -1,3 +1,9 @@
+---
+layout: default
+title: Project Progress Updates Ⅱ training evaluation
+description: This is the pages contain information about the training and evaluation
+---
+
 1. Evaluation Metric
     
     For the performance of our two selected BERT models on Chinese and English sentiment datasets, we need to measure it by a set of evaluation metrics, of which the simplest and most intuitive is the accuracy by testing the system, however, the accuracy into counting the number of times the model makes correct predictions throughout the entire dataset, if the dataset is class-balanced, the metrics have a certain degree of reliability, but if the dataset is highly varied in the number of classes, the accuracy may not be a valid reflection of the model's performance. F1 score is another model evaluation metric that assesses the predictive power of a model by detailing its categorization performance rather than its overall performance through accuracy. F1 score combines the competing metrics of model accuracy and recall to somewhat address the problem of imbalance in the categories of a dataset. In our project, we used HuggingFace's Evaluate library to calculate the Metric for Accuracy and F1 score.(Pedregosa et al., 2020)
@@ -52,3 +58,8 @@
         - lr_scheduler_type': 'linear'
     
     The F1 score of both models on their respective datasets is above 0.85, which indicates that our models have good prediction for sentiment recognition of sentences.
+   
+### Reference(APA style)
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, E. (2011). Scikit-learn: Machine Learning in Python*. Journal of Machine Learning Research, 12, 2825–2830.*
+
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, & Alexander M. Rush (2020). Transformers: State-of-the-Art Natural Language Processing. In *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations* (pp. 38–45). Association for Computational Linguistics.
