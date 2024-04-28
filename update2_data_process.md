@@ -1,3 +1,9 @@
+---
+layout: default
+title: Project Progress Updates Ⅱ data process
+description: This is the pages contain information about the data process
+---
+
 First, we have an errata, our previous emotion dataset only had 6 emotions, now we have added neutral emotion for better analysis
 
 **1.Clean Corpus**
