@@ -54,6 +54,4 @@ We also came up with a demo using gradio to better illustrate our work.
 
 
 #### Reference(APA style)
-Jiaxing Zhang, Ruyi Gan, Junjie Wang, Yuxiang Zhang, Lin Zhang, Ping Yang, Xinyu Gao, Ziwei Wu, Xiaoqun Dong, Junqing He, Jianheng Zhuo, Qi Yang, Yongfeng Huang, Xiayu Li, Yanghan Wu, Junyu Lu, Xinyu Zhu, Weifeng Chen, Ting Han, Kunhao Pan, Rui Wang, Hao Wang, Xiaojun Wu, Zhongshen Zeng, & Chongpei Chen (2022). Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence*. CoRR, abs/2209.02970.*
 
-He, P., Liu, X., Gao, J., & Chen, W. (2020). DeBERTa: Decoding-enhanced BERT with Disentangled Attention*. CoRR, abs/2006.03654.*
