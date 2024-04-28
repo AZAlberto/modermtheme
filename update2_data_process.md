@@ -14,6 +14,10 @@ In this initial step, we focused on preparing the dataset for analysis by cleani
 
 We utilized the nltk library to identify and remove stopwords from the English text within our dataset. This step is crucial as it eliminates commonly used words that do not contribute significantly to the sentiment of the text, thereby reducing noise in the dataset.
 
+Common words change in English:
+
+![](./update2/update2_data_process5)|![](./update2/update2_data_process6)
+
 **3.Remove Duplicate Rows**
 
 To ensure the uniqueness of our dataset, we performed deduplication by removing identical rows. This prevents the model from being biased towards repeated samples during training.
@@ -21,6 +25,11 @@ To ensure the uniqueness of our dataset, we performed deduplication by removing 
 **4.Remove the Outlier Based on the Text Length**   
 
 Although the code specifics were not provided up to step 3, typically, this step would involve analyzing the distribution of text lengths and removing entries that are too long or too short, which could be considered outliers. This is done to avoid training the model on noise and to ensure that the data is representative of typical text lengths.
+
+Images below show the text length changes:
+
+![](./update2/update2_data_process1)|![](./update2/update2_data_process2)
+![](./update2/upadte2_data_process3)|![](./update2/update2_data_process4)
 
 **5.Remove Too Short Sentences in Both Datasets**
 
