@@ -24,7 +24,7 @@ Data is the core to good machine learning models. In the data process stage, we 
 - **Convert to HF dataset & Split to train-dev-test set**
 - **Tokenize**
 
-The detailed procedure for data processing can be found in ![here](./update2_data_process)
+The detailed procedure for data processing can be found in [here](./update2_data_process)
 
 ### 2. Model Selection
 After the data process, we analysed different models for our task. Since there is language gaps between different languages, to better extract the emotion
@@ -33,7 +33,7 @@ from different inputs, we finally choosed one model for English and one model fo
 - **Model For Chinese Sentiment Dataset:**: Erlangshen-DeBERTa-v2-320M-Chinese.
 - **Model For English Sentiment Dataset:**: ernie-2.0-large-en.
 
-The information about the two models and other models that we have tried or analysed can be found in ![here](./update2_model_selection)
+The information about the two models and other models that we have tried or analysed can be found in [here](./update2_model_selection)
 
 ### 3. Training & Evaluation
 After the model selection stage, we need to choose one model with top performance. Consequently, the two models we finally chose are the ones that
