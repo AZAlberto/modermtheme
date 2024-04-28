@@ -57,5 +57,3 @@ Here are images showing the demo:
 ![](./update2_images/update2_demo1.png)
 ![](./update2_images/update2_demo2.png)
 
-#### Reference(APA style)
-
