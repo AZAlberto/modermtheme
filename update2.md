@@ -52,6 +52,10 @@ With the above training and evaluation procedures, we finally chose our best mod
 To demonstrate the model and make it easy for later usage, we have transferred the pipeline into Huggingface API which will be convenient to use.
 We also came up with a demo using gradio to better illustrate our work.
 
+Here are images showing the demo:
+
+![](./update2_images/update2_demo1.png)
+![](./update2_images/update2_demo2.png)
 
 #### Reference(APA style)
 
