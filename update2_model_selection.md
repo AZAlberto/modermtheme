@@ -22,7 +22,7 @@ In the execution of sentiment detection tasks in English, we will employ Baidu's
 
 The ERNIE 2.0 model encompasses three different language processing tasks: word-aware pre-training task, structure-aware pre-training task, and semantic-aware pre-training task. The specific model architecture is illustrated as follows:
 
-![](./update2/update2_model_selection.png)
+![](./update2_images/update2_model_selection.png)
 
 ### Reference(APA style)
 Jiaxing Zhang, Ruyi Gan, Junjie Wang, Yuxiang Zhang, Lin Zhang, Ping Yang, Xinyu Gao, Ziwei Wu, Xiaoqun Dong, Junqing He, Jianheng Zhuo, Qi Yang, Yongfeng Huang, Xiayu Li, Yanghan Wu, Junyu Lu, Xinyu Zhu, Weifeng Chen, Ting Han, Kunhao Pan, Rui Wang, Hao Wang, Xiaojun Wu, Zhongshen Zeng, & Chongpei Chen (2022). Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence*. CoRR, abs/2209.02970.*
