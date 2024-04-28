@@ -30,9 +30,9 @@ This step involves filtering out sentences that are below a certain length thres
 
 We found that the f1 of the Chinese and English models is very low, especially in English. After some research, we found that the label distribution of the original data set was too unbalanced.We have planned for two sub-steps under this process:
 
-  **Upsampling in Chinese: Increasing the representation of underrepresented classes in the Chinese dataset to balance the class distribution.**
+  * **Upsampling in Chinese:** Increasing the representation of underrepresented classes in the Chinese dataset to balance the class distribution.
   
-  **Downsampling and Upsampling in English: Adjusting the English dataset by decreasing the representation of overrepresented classes and increasing the representation of underrepresented ones.**
+  * **Downsampling and Upsampling in English:** Adjusting the English dataset by decreasing the representation of overrepresented classes and increasing the representation of underrepresented ones.
 
 **7.Convert to HF Dataset & Split to Train-Dev-Test Set**
 
