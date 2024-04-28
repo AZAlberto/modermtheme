@@ -24,6 +24,8 @@ The ERNIE 2.0 model encompasses three different language processing tasks: word-
 
 ![](./update2_images/update2_model_selection.png)
 
+Word-Aware Pre-Training Task: Predicting whether a word in one segment also appears in other segments of the same document.
+
 ### Reference(APA style)
 Jiaxing Zhang, Ruyi Gan, Junjie Wang, Yuxiang Zhang, Lin Zhang, Ping Yang, Xinyu Gao, Ziwei Wu, Xiaoqun Dong, Junqing He, Jianheng Zhuo, Qi Yang, Yongfeng Huang, Xiayu Li, Yanghan Wu, Junyu Lu, Xinyu Zhu, Weifeng Chen, Ting Han, Kunhao Pan, Rui Wang, Hao Wang, Xiaojun Wu, Zhongshen Zeng, & Chongpei Chen (2022). Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence*. CoRR, abs/2209.02970.*
 
