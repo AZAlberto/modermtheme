@@ -2,9 +2,9 @@ In the analysis of Chinese sentiment data sourced from Weibo, the Erlangshen-DeB
 
 DeBERTa, short for “Decoding-enhanced BERT with Disentangled Attention,” was originally proposed by He et al. in 2020 and tailored for Natural Language Understanding (NLU) tasks. The model’s key innovations encompass disentangled attention mechanism and Enhanced mask decoder. The former involves calculating attention scores using both content and position vectors, facilitating the consideration of content-content, content-position, and position-position relationships. The disentangled attention mechanism can be represented mathematically as:
 
-!(./update2_model_pic)
+![](./update2_model_pic.png)
 
-Here, $\bold{H}_i$ represents content for a token at position i while $\bold{P}_{i|j}$ denotes relative position with respect to the token at position j. Indeed, an observed phenomenon is that the attentional weight assigned to word pairs is contingent not only upon their semantic content but also on their relative positions within the context. For instance, when words like "deep" and "learning" occur adjacently, their interdependence is notably stronger compared to when they appear in separate sentences.
+Here, $H_i$ represents content for a token at position i while ${P}_{i|j}$ denotes relative position with respect to the token at position j. Indeed, an observed phenomenon is that the attentional weight assigned to word pairs is contingent not only upon their semantic content but also on their relative positions within the context. For instance, when words like "deep" and "learning" occur adjacently, their interdependence is notably stronger compared to when they appear in separate sentences.
 
 Alternatively, the enhanced mask decoder involves incorporating absolute position information into the BERT decoder during pre-training. This enables the model to predict masked tokens more accurately. For instance, let's take the sentence "a new store opened beside the new mall" with the words "store" and "mall" masked for prediction. In this scenario, relying solely on local context (i.e., relative positions and surrounding words) proves inadequate for the model to differentiate between "store" and "mall" in the sentence, as both words follow the word "new" with identical relative positions.
 
