@@ -15,14 +15,14 @@ We've achieved the following milestones:
 ### 1. Data Process
 Data is the core to good machine learning models. In the data process stage, we have done lots of works including:
 
-clean corpus
-remove stopwords in english
-remove duplicate rows
-Remove the outlier based on the text length
-Remove too short sentence in both dataset
-Resampling the dataset to get balanced distribution
-Convert to HF dataset & Split to train-dev-test set
-Tokenize
+- **clean corpus**
+- **remove stopwords in english**
+- **remove duplicate rows**
+- **Remove the outlier based on the text length**
+- **Remove too short sentence in both dataset**
+- **Resampling the dataset to get balanced distribution**
+- **Convert to HF dataset & Split to train-dev-test set**
+- **Tokenize**
 
 The detailed procedure for data processing can be found in here(./update2_data_process)
 
