@@ -38,11 +38,13 @@ The information about the two models and other models that we have tried or anal
 ### 3. Training & Evaluation
 After the model selection stage, we need to choose one model with top performance. Consequently, the two models we finally chose are the ones that
 have the best performance in this training and evaluation stage. We adjust the models using hyperparameter tuning and optuna.
+
 Hyperparameter Tuning & what is optuna
     1. learning_rate
     2. num_train_epochs
     3. per_device_train_batch_size
     4. lr_scheduler_type
+
 For the evaluation metric, we have chosen accuracy and f1.
 With the above training and evaluation procedures, we finally chose our best model Erlangshen-DeBERTa-v2-320M-Chinese for Chinese and ernie-2.0-large-en for English.
 
