@@ -10,7 +10,7 @@ DeBERTa, short for “Decoding-enhanced BERT with Disentangled Attention,” was
 
 ![](./update2_model_pic.png)
 
-Here, H_i represents content for a token at position i while P_i|j denotes relative position with respect to the token at position j. Indeed, an observed phenomenon is that the attentional weight assigned to word pairs is contingent not only upon their semantic content but also on their relative positions within the context. For instance, when words like "deep" and "learning" occur adjacently, their interdependence is notably stronger compared to when they appear in separate sentences.
+Here, H_i represents content for a token at position i while P_ij denotes relative position with respect to the token at position j. Indeed, an observed phenomenon is that the attentional weight assigned to word pairs is contingent not only upon their semantic content but also on their relative positions within the context. For instance, when words like "deep" and "learning" occur adjacently, their interdependence is notably stronger compared to when they appear in separate sentences.
 
 Alternatively, the enhanced mask decoder involves incorporating absolute position information into the BERT decoder during pre-training. This enables the model to predict masked tokens more accurately. For instance, let's take the sentence "a new store opened beside the new mall" with the words "store" and "mall" masked for prediction. In this scenario, relying solely on local context (i.e., relative positions and surrounding words) proves inadequate for the model to differentiate between "store" and "mall" in the sentence, as both words follow the word "new" with identical relative positions.
 
