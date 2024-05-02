@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Alex Sobolsky
-description: Data Research Projects
+title: Data Research Projects
+description: Alex Sobolsky
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
