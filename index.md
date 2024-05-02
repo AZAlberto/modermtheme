@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lee Sobolsky
+title: Alex Sobolsky
 description: Data Research Projects
 show_downloads: false
 google_analytics:
