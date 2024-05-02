@@ -1,5 +1,4 @@
-# Alex Sobolsky
-### Data Research Projects
+# Data Research Projects
 
 ## [Anatomy of Solidarity in United Nations Voting](https://sobolsky.github.io/un)
 > ### Political Conditions
