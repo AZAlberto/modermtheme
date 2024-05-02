@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Lee Sobolsky
 description: Data Research Projects
 show_downloads: false
