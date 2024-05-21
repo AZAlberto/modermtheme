@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
----
+**Methodology**
 
-## Welcome to another page
+_Used tools_: HTML, GitHub, SPARQL, LLMs (Gemini and ChaptGPT), ArCo Ontology and Knowledge Graph
 
-_yay_
+_External resources_: Google
 
-[back](./)
