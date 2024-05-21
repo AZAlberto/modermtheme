@@ -5,3 +5,4 @@ _Used tools_: HTML, GitHub, SPARQL, LLMs (Gemini and ChaptGPT), ArCo Ontology an
 
 _External resources_: Google
 
+
