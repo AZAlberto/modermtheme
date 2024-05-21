@@ -2,52 +2,37 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**INTRODUCTION**
 
-[Link to another page](./another-page.html).
+-**Context** 
 
-There should be whitespace between paragraphs.
+ArCo: the knowledge Graph of the Italian Cultural Heritage
+Large Language Models : Gemini and ChaptGPT
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+-**Team** 
 
-# Header 1
+Sara Speggiorin & Sara Paglia 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+-**Topic** 
 
-## Header 2
+Michelangelo's artworks : an in-depth analysis of _Pietà (stampa)_ and _David-Apollo_ 
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+-**Purpose**
 
-### Header 3
+- Exploring the ArCo Ontology to find the two cultural properties. 
+- Enriching Arco Knowledge Graph with futher details about the two cultural properties. 
+- Retrieving useful information using LLMs.
+  
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**Index**
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  
+       <p>
+      <a href="https://github.com/capa46/project/blob/838429346213ec8270be03cb904e52ef9317995a/another-page.html">Methodology</a> 
+    </p>
+2.  Results and analysis.
+3.  Discussion.
+4.  Conclusions and possible future developments. 
 
 ###### Header 6
 
