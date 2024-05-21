@@ -19,16 +19,20 @@ Michelangelo's artworks : an in-depth analysis of _Pietà (stampa)_ and _David-A
 
 -**Purpose**
 
-- Exploring the ArCo Ontology to find the two cultural properties 
-- Enriching Arco Knowledge Graph with futher details about the two cultural properties 
-- Retrieving useful information using LLMs
+- Exploring the ArCo Ontology to find the two cultural properties. 
+- Enriching Arco Knowledge Graph with futher details about the two cultural properties. 
+- Retrieving useful information using LLMs.
   
 
-##### Header 5
+**Index**
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1.  
+       <p>
+      <a href="https://www.lecturalia.com/">Methodology</a> 
+    </p>
+2.  Results and analysis.
+3.  Discussion.
+4.  Conclusions and possible future developments. 
 
 ###### Header 6
 
