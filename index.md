@@ -4,44 +4,25 @@ layout: default
 
 **INTRODUCTION**
 
+#-**Context** 
 
+ArCo: the knowledge Graph of the Italian Cultural Heritage
+Large Language Models : Gemini and ChaptGPT
 
-There should be whitespace between paragraphs.
+##-**Team** 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Sara Speggiorin & Sara Paglia 
 
-#-Context 
+###-**Topic** 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Michelangelo's artworks : an in-depth analysis of _Pietà (stampa)_ and _David-Apollo_ 
 
-##-Team 
+####-**Purpose**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-###-Topic 
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-####-Purpose 
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+- Exploring the ArCo Ontology to find the two cultural properties 
+- Enriching Arco Knowledge Graph with futher details about the two cultural properties 
+- Retrieving useful information using LLMs
+  
 
 ##### Header 5
 
