@@ -28,7 +28,7 @@ Michelangelo's artworks : an in-depth analysis of _Pietà (stampa)_ and _David-A
 
 1.  
        <p>
-      <a href="https://another-page.md//">Methodology</a> 
+      <a href="another-page.md">Methodology</a> 
     </p>
 2.  Results and analysis.
 3.  Discussion.
