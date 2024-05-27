@@ -28,13 +28,13 @@ PEFT methods address this challenge by fine-tuning only a small subset of the mo
 
 #### 2.2 Low-Rank Adaptation (LoRA)
 
-- **Theory:**: 
+- **Theory:**
 
     Low-Rank Adaptation (LoRA) is a parameter-efficient fine-tuning technique designed to reduce the number of trainable parameters, thereby decreasing training time and GPU memory usage while maintaining the quality of model outputs. The core principle of LoRA involves adding additional network layers to the model and freezing the pre-trained model's weight parameters. Only the parameters of these additional layers are trained.
 
     LoRA is fundamentally an approximate value decomposition technique, performing low-rank decomposition of the feature matrices. Given the inherent low-rank nature of the model, the parameters of the additional network layers can be approximated using two low-rank matrices. These matrices have significantly fewer parameters compared to the original parameter matrices, thus greatly reducing the number of parameters that need to be fine-tuned.
 
-- **Method:**: 
+- **Method:**
 
     Neural networks often contain numerous fully connected layers, where the training process is based on matrix multiplication, and the weight matrices are typically full-rank. However, not all weights are necessary, as some fully connected layers may contribute little information or learn features that are not crucial for the target task. Therefore, full-rank matrices are not essential for fine-tuning. By projecting the weight matrix onto a lower-rank subspace, the model's complexity can be reduced by eliminating unnecessary parameters. This allows the same information to be represented with fewer parameters, reducing computational cost while maintaining performance.
 
@@ -48,8 +48,8 @@ PEFT methods address this challenge by fine-tuning only a small subset of the mo
 
     As depicted in Figure of LoRA, the modified forward pass involves merging the original model's main path with a bypass branch:
 
-    $$ h = W_{0}x $$
-    
+    $$h = W_{0}x$$
+
     \[ h = W_{0}x \]
 
     The modified forward pass then becomes:
