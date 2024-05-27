@@ -51,7 +51,7 @@ PEFT methods address this challenge by fine-tuning only a small subset of the mo
     $$h = W_{0}x$$
 
     \[ h = W_{0}x \]
-    
+
     $$
     h = W_{0}x
     $$
@@ -143,3 +143,4 @@ Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., & Ch
 Sourab Mangrulkar, Sylvain Gugger, Lysandre Debut, Younes Belkada, Sayak Paul, & Benjamin Bossan. (2022). PEFT: State-of-the-art Parameter-Efficient Fine-Tuning methods. .
 
 
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
