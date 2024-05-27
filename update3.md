@@ -49,6 +49,8 @@ PEFT methods address this challenge by fine-tuning only a small subset of the mo
     As depicted in Figure of LoRA, the modified forward pass involves merging the original model's main path with a bypass branch:
 
     $$ h = W_{0}x $$
+    
+    \[ h = W_{0}x \]
 
     The modified forward pass then becomes:
 
